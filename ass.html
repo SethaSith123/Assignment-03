@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE103K-Track</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+        }
+        .header{
+            background-color: blue;
+            width: 100%;
+            height: 11vh;
+        }
+        .header marquee{
+            margin-top: 5px;
+        }
+        .header marquee img{
+            height: 10vh;
+        }
+        .header marquee img{
+            padding: 0;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .marquee {
+            position: relative;
+        }
+        .marquee > span {
+            position: absolute;
+            top: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .pic{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 50vh;
+            padding: 10px;
+        }
+        .pic img{
+            width: 300px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <marquee behavior="scroll" direction="right" class="marquee">
+                <img src="Cost.jpg" alt="">
+                <span>ស្វាគមន៍! IT Women in Collage Scince and Technology</span>
+            </marquee>           
+        </div>
+
+        <!-- main -->
+        <div class="pic">
+            <img src="pic1.jpg" alt="">
+            <img src="pic2.jpg" alt="">
+            <img src="pic3.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
